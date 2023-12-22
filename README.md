@@ -28,6 +28,18 @@ Coming inside the `src` folder we have the following folders:
   PORT = <port number of your choice>
   ```
 
+- To store the logs create a combined.log file in the root directory.
+
+- Go to the `src` folder and execute the command:
+
+  ```
+  npx sequelize init --force
+  ```
+
+- This will create a config.json file in the config folder and create migrations, models, and seeders folder.
+
+- If you are setting up the development environment , then in the `config.json` file , replace the username and password of your db and same for test and production environment (host also for test and production env). Also you can replace the dialect you want to use but then also install it as a npm package. we have dialect as mysql therefore we have a dependency of mysql2 in the package.json file.
+
 - To run the server execute the command :
 
   ```
