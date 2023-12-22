@@ -22,6 +22,12 @@ Coming inside the `src` folder we have the following folders:
 
 - Clone this repository.
 
+- Go inside the folder path and execute the following command :
+
+  ```
+  npm i
+  ```
+
 - In the root directory create a .env file and add the following environment variables:
 
   ```
@@ -36,7 +42,7 @@ Coming inside the `src` folder we have the following folders:
   npx sequelize init --force
   ```
 
-- This will create a config.json file in the config folder and create migrations, models, and seeders folder.
+- This will create a `config.json` file in the `config` folder and create migrations, models, and seeders folder.
 
 - If you are setting up the development environment , then in the `config.json` file , replace the username and password of your db and same for test and production environment (host also for test and production env). Also you can replace the dialect you want to use but then also install it as a npm package. we have dialect as mysql therefore we have a dependency of mysql2 in the package.json file.
 
