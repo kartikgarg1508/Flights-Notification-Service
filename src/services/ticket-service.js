@@ -49,4 +49,6 @@ async function getPendingTickets() {
 
 module.exports = {
   createTicket,
+  sendEmail,
+  getPendingTickets,
 };
